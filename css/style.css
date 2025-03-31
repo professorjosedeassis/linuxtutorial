@@ -168,7 +168,7 @@ body {
 /* Banner de páginas */
 .Banner2 {
   height: 35vh;
-  background: url(../img/bannerhal.jpg);
+  background: url(../img/bannerdebian.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -197,7 +197,7 @@ header {
 
 #logo h1 {
   margin: 8px 0px 0px 10px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--cinzaEscuro);
 }
 
@@ -246,8 +246,8 @@ nav ul li a {
 
 /* Banner */
 #banner {
-  height: 50vh;
-  background: url(../img/bannerH2.jpg);
+  height: 45vh;
+  background: url(../img/bannerdevlinux.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -271,7 +271,7 @@ nav ul li a {
   font-size: 1.25em;
   font-weight: 400;
   margin: 15px 0px 50px 0px;
-  color: var(--cinzaEscuro);
+  color: var(--cinzaEscuro); 
 }
 
 /* Introdução */
@@ -412,7 +412,17 @@ footer {
   margin-bottom: 25px;
 }
 
+/*** Banner de páginas ***/
+#logoBanner img {
+  width: 128px;
+  height: 128px;
+}
+
 /*** Página sobre ***/
+#prof {
+  border-radius: 50%;
+}
+
 #textoProf h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
@@ -454,13 +464,6 @@ footer {
 #apoio h4 {
   font-weight: 600;
   margin-top: 15px;
-  color: var(--cinza);
-}
-
-.destaqueApoio {
-  margin-top: 15px;
-  font-size: 1.25em;
-  font-weight: 500;
 }
 
 #apoio form {
@@ -474,7 +477,7 @@ footer {
 .pix {
   background-color: var(--branco);
   padding: 1px 3px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 #pix {
@@ -485,6 +488,11 @@ footer {
   padding: 1px 10px;
   border: 1px solid var(--cinzaClaro);
   margin: 15px 0px;
+}
+
+#pix2 {
+  font-size: 0.9em;
+  color: var(--cinzaEscuro);
 }
 
 /*** Páginas de conteúdo ***/
@@ -540,7 +548,7 @@ footer {
 
   /* Banner */
   #banner {
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
   }
 
@@ -611,7 +619,7 @@ footer {
   }
 
   #banner h3 {
-    font-size: 1.4em;
+    font-size: 1em;
   }
 
   /* seções */
@@ -640,7 +648,7 @@ footer {
   }
 
   #banner h3 {
-    font-size: 1.1em;
+    font-size: 1.53em;
   }
 
   /* Youtube */
@@ -656,6 +664,12 @@ footer {
   #imagemYoutube img {
     width: 200px;
     height: 200px;
+  }
+
+  /*** Banner de páginas ***/
+  #logoBanner img {
+    width: 256px;
+    height: 256px;
   }
 
   /*** Página sobre ***/
@@ -736,10 +750,6 @@ footer {
 
   #banner h2 {
     font-size: 3em;
-  }
-
-  #banner h3 {
-    font-size: 1.75em;
   }
 
   /* Introdução */
