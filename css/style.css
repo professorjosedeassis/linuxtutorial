@@ -168,7 +168,7 @@ body {
 /* Banner de páginas */
 .Banner2 {
   height: 35vh;
-  background: url(../img/bannerdebian.jpg);
+  background: url(../img/bannerdebian2.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -314,7 +314,7 @@ nav ul li a {
 
 /* YouTube */
 #youtube {
-  background: url(../img/bannerhal.jpg);
+  background: url(../img/bannerdebian.jpg);
   background-size: cover;
   background-position: center;
   color: var(--branco)
