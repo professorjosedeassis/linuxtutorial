@@ -18,7 +18,8 @@
   --cinzaEscuro: #3c3c3c;
   --gelo: #f1f3f4;
   --preto: #000;
-  --vermelho: #cc280f;
+  --vermelho: #D70651;
+  --rosa: #D70651;
 }
 
 /* CSS Reset */
@@ -168,7 +169,7 @@ body {
 /* Banner de páginas */
 .Banner2 {
   height: 35vh;
-  background: url(../img/bannerdebian.jpg);
+  background: url(../img/bannerdebian3.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -247,7 +248,7 @@ nav ul li a {
 /* Banner */
 #banner {
   height: 45vh;
-  background: url(../img/bannerdevlinux.jpg);
+  background: url(../img/bannerdevlinux2.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -314,7 +315,7 @@ nav ul li a {
 
 /* YouTube */
 #youtube {
-  background: url(../img/bannerdebian.jpg);
+  background: url(../img/bannerdebian3.jpg);
   background-size: cover;
   background-position: center;
   color: var(--branco)
